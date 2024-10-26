@@ -21,6 +21,7 @@ import RefundPolicy from './components/RefundPolicy';
 import ShippingPolicy from './components/ShippingPolicy';
 import CookiePolicy from './components/CookiePolicy';
 import BeASeller from './components/BeASeller';
+import Kalamitra from './components/Kalamitra';
 
 
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/about" element={<AboutUs/>}/>
           <Route path="/blogs" element={<Blogs/>}/>
           <Route path="/shop" element={<ShoppingPage/>}/>
+          <Route path="/kalamitra" element={<Kalamitra/>}/>
           <Route path="/faq" element={<FAQ/>}/>
           <Route path="*" element={<NotFound/>}/>
           <Route path="/contact" element={<ContactUs/>}/>
